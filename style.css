@@ -1,0 +1,35 @@
+h1 {
+    color: cornflowerblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+p{
+    color: dimgrey;
+    text-align: center;
+}
+
+
+
+img{
+    width: 180px;
+}
+
+#acerca-de-osmo{
+    color: rgb(97, 74, 165);
+}
+
+.reseñas{
+    background-color: lightblue;
+}
+
+#Tarjeta-para-equipos p{
+    color: crimson;
+}
+
+#redes p:last-child{
+    color: rgb(134, 84, 84);
+    background-color: coral;
+}
