@@ -2,6 +2,12 @@ h1 {
     color: cornflowerblue;
 }
 
+h1:hover{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
 h2 {
     color: cornflowerblue;
 }
@@ -15,6 +21,10 @@ p{
 
 img{
     width: 180px;
+}
+
+img :hover{
+    width: 300px;
 }
 
 #acerca-de-osmo{
