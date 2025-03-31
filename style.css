@@ -1,23 +1,23 @@
+body{
+    background-color: white;
+}
+
 h1 {
-    color: cornflowerblue;
+    color: #2C3E50;
+    font-family: "Cormorant Garamond";
 }
 
 h1:hover{
-    background-color: aqua;
-    color: black;
-    text-align: center;
+    font-size: 40px;
 }
 
 h2 {
-    color: cornflowerblue;
+    color: #4A4A4A;
 }
 
 p{
-    color: dimgrey;
-    text-align: center;
+    color: #333333;
 }
-
-
 
 img{
     width: 180px;
@@ -31,15 +31,35 @@ img :hover{
     color: rgb(97, 74, 165);
 }
 
-.resenas{
+.reseas{
     background-color: lightblue;
 }
 
+article{
+    background-color: #C5D8E5;
+    padding: 5px 5;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
 #Tarjeta-para-equipos p{
-    color: crimson;
+    color: #1A5276;
+}
+
+h3{
+    color: #4A4A4A;
 }
 
 #redes p:last-child{
-    color: rgb(134, 84, 84);
-    background-color: coral;
+    color: #1A5276;
 }
+
+/* Estilos para el Font de Cormorant Garamond
+.cormorant-garamond-<CormorantText> {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}*/
+
