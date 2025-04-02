@@ -24,18 +24,6 @@ img{
     color: #333333;
 }
 
-.resenas{
-    background-color: #C5D8E5;
-}
-
-article{
-    background-color: #C5D8E5;
-    padding: 5px 5;
-    margin: 40px auto;
-    text-align: center;
-    border-radius: 10px;
-}
-
 #Tarjeta-para-equipos p{
     color: #1A5276;
 }
@@ -105,7 +93,7 @@ h1:hover{
 .Nav-Links a{
     text-decoration: none;
     color: black;
-    font-weight:lighter;
+    font-weight: normal;
     font-size: 14px;
     padding: 10px 15px;
 }
@@ -130,6 +118,23 @@ h1:hover{
     right: 50px;
     width: 30px;
     height: auto;
+}
+
+
+.Formulario-dudas-equipos{
+    background-color: #C5D8E5;
+    padding: 5px 5;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.resenas{
+    background-color: #C5D8E5;
+    padding: 30px 30px;
+    margin: 50px 40px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
