@@ -2,37 +2,30 @@ body{
     background-color: white;
 }
 
-h1 {
-    color: #2C3E50;
-    font-family: "Cormorant Garamond";
-}
-
-h1:hover{
-    font-size: 40px;
-}
-
-h2 {
+h2{
     color: #4A4A4A;
 }
 
 p{
     color: #333333;
+    font-family: Noto Sans;
+}
+
+ul{
+    font-family: Noto Sans;
 }
 
 img{
     width: 180px;
 }
 
-img :hover{
-    width: 300px;
+
+#acerca-de-osmo h2{
+    color: #333333;
 }
 
-#acerca-de-osmo{
-    color: rgb(97, 74, 165);
-}
-
-.reseas{
-    background-color: lightblue;
+.resenas{
+    background-color: #C5D8E5;
 }
 
 article{
@@ -62,4 +55,86 @@ h3{
     font-weight: <weight>;
     font-style: normal;
 }*/
+
+/* Estilos para el Font de Noto Sans
+.noto-sans-<uniquifier> {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}*/
+
+.Barra-navegacion{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid;
+}
+
+.nombre-logo h1{
+    margin: 0;
+    font-size: 25px;
+    color: #2C3E50;
+    font-family: "Cormorant Garamond";
+}
+
+h1:hover{
+    font-size: 35px;
+}
+
+#Subtitulo{
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.Nav-Links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.Nav-Links a{
+    text-decoration: none;
+    color: black;
+    font-weight:lighter;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.Nav-Links a:hover{
+    color: #1A5276;
+}
+
+
+
+.Carrito{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.imagen-carrito{
+    position: relative;
+    text-align: center;
+    top: 6%;
+    position: absolute;
+    right: 50px;
+    width: 30px;
+    height: auto;
+}
+
+
+
+
+
+
 

@@ -8,23 +8,35 @@
     <style class="CormorantText">
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+            </style>
 </head>
 <body>
-    <header>
-        <h1>OSMO CARD</h1>
-        <h2>Tu tarjeta, tu marca</h2>
-        <nav>
-            <img src="./tarjetaas sin fondo.PNG"alt="foto de las tarjetas">
-            <img src="./mano presentacion digital.png" alt="foto de tarejta mano">
+    <header class="Barra-navegacion" >
+        <div class="nombre-logo">
+            <h1>OSMO CARD</h1>
+            <h2 id="Subtitulo">Tu Tarjeta, tu marca</h2>
+        </div>
+        <nav class="Nav-Links">
             <ul>
-                <li><a href="#acerca-de-osmo">Acerca de OSMO Card</a></li>
-                <li><a href="#comprar-tarjeta">Compra tu tarjeta</a></li>
-                <li><a href="#Reseñas">Reseñas</a></li>
-                <li><a href="#Tarjeta-para-equipos"> Comprar tarjeta para equipos</a></li>
-                <li><a href="#redes">Síguenos en nuestras redes sociales</a></li>
+            <a href="#acerca-de-osmo">OSMO CARD</a></li>
+            <a href="#comprar-tarjeta">Compra tu tarjeta</a></li>
+            <a href="#Tarjeta-para-equipos">Para equipos</a></li>
+            <a href="#Reseñas">Reseñas</a></li>
+            <a href="#Dudas">¿Dudas?</a></li>
+            <a href="#Redes">Redes</a></li>
             </ul>
         </nav>
+        <div class="Carrito"><img class="imagen-carrito" src="./IMG_1468.jpg" alt="Carrito de compras"></div>
     </header>
+
+
+    <div>
+    <nav>
+        <img src="./tarjetaas sin fondo.PNG"alt="foto de las tarjetas">
+        <img src="./mano presentacion digital.png" alt="foto de tarejta mano">
+    </div>
 
     <main>
         <section id="acerca-de-osmo">
@@ -54,6 +66,25 @@
             <img src="./tarjetas tipos.png.png" alt="tipos de tarjetas">
         </section>
 
+        <article>
+            <section id="Tarjeta-para-equipos">
+            <h4>Para más información sobre cómo personalizar tu tarjeta o para comprar tarjeta para equipos, ingresa tus datos</h3>
+            <form action="">
+                <fieldset>
+                    <label for="">Ingresa tu nombre:</label>
+                    <input type="text" name="" id="persona">
+                    <label for="">Número de teléfono:</label>
+                    <input type="number" name="" id="">
+                    <label for="">Correo electrónico:</label>
+                    <input type="email" name="" id="">
+                    <label for="">Motivo:</label>
+                    <input type="motivo" name="" id="">
+                </fieldset>
+            </form>
+            <p>Una vez realizada la tarjeta NO se pueden realizar cambios ni devouluciones.</p>
+            </section>
+        </article>
+
         <section id="Reseñas">
             <h2>Algunas reseñas de clientes satisfechos cons sus tarjetas OSMO</h2>
             <article class="resenas">
@@ -66,25 +97,41 @@
         </section>
 
     <article>
-        <section id="Tarjeta-para-equipos">
-        <h4>Para más información sobre cómo personalizar tu tarjeta o para comprar tarjeta para equipos, ingresa tus datos</h3>
-        <form action="">
-            <fieldset>
-                <label for="">Ingresa tu nombre:</label>
-                <input type="text" name="" id="persona">
-                <label for="">Número de teléfono:</label>
-                <input type="number" name="" id="">
-                <label for="">Correo electrónico:</label>
-                <input type="email" name="" id="">
-                <label for="">Motivo:</label>
-                <input type="motivo" name="" id="">
-            </fieldset>
-        </form>
-        <p>Una vez realizada la tarjeta NO se pueden realizar cambios ni devouluciones.</p>
+        <section id="#Dudas">
+            <h4>Preguntas Frecuentes</h4>
+            <h5>Mi OSMO CARD</h5>
+            <ul>
+                <li>¿Cómo funciona?</li>
+                <li>¿Qué datos le puedo agregar a mi OSMO CARD?</li>
+                <li>¿Puedo modificar mi información?</li>
+                <li>¿Hay límite de información?</li>
+                <li>¿Hay un límite de cambios?</li>
+                <li>¿Cómo puedo compartir mi información?</li>
+                <li>¿Cómo pueden guardar mi información?</li>
+            </ul>
+            <h5>Diseño de mi OSMO CARD</h5>
+            <ul>
+                <li>¿Puedo cambiar mi diseño después de enviarlo?</li>
+                <li>¿Puedo diseñarla como quiera?</li>
+                <li>¿Qué dimensiones y resoluciones se requieren para el logotipo?</li>
+                <li>¿De qué materiales están hechos los productos?
+                </li>
+            </ul>
+            <h5>Envíos y Devoluciones</h5>
+            <ul>
+                <li>¿Cuánto tiempo tarda en enviarse el producto?</li>
+                <li>¿Qué ocurre si despues del tiempo estimado de entrega, aún no recibo mi producto?</li>
+                <li>Cometí un error con la dirección de entrega</li>
+            </ul>
+            <h5>Protección de datos</h5>
+            <ul>
+                <li>¿Dónde se almacenan mis datos personales?</li>
+                <li>Privacidad y Seguridad</li>
+            </ul>
         </section>
     </article>
 
-    <section id="redes">
+    <section id="#Redes">
         <h3>Nuestras redes sociales</h3>
         <p><a href="https://www.instagram.com/osmocard/profilecard/?igsh=NWh0MmtueGU1aGd3">Instagram</a></p>
         <p><a href="https://www.tiktok.com/@osmocard?_t=ZM-8uStI8uqr9a&_r=1">TikTok</a></p>
